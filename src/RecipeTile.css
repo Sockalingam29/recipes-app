@@ -1,0 +1,21 @@
+.RecipeTile_container{
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #9c92ac;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .RecipeTile_image{
+      width:200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 4px;
+  }
+  .RecipeTile_text{
+      height: 40px;
+      width: 200px;
+      text-align: center;
+      margin-bottom:10px;
+  }
+  

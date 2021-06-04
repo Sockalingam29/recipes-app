@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-size: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 30px;  
+  
+}
+
+.App_input{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white;
+  border:1px solid black;
+}
+
+.App_submit{
+  padding: 10px;
+  cursor:pointer;
+  border-radius: 4;
+  background-color: blue;
   color: white;
+  border:1px solid black;
+}
+.App_submit:hover{
+  background-color: #9c92ac;
+  color:white ;
+}
+.App_recipe{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 200px 250px;
+  margin-top: 10px;
+  align-items: baseline;
+  
+}
+.App_dropdown{
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  border:1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
